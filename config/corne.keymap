@@ -84,9 +84,9 @@
     default_layer {
       display-name = "Base";
       bindings = <
-        &kp TILDE   &kp W      &kp E       &kp R      &kp T        &kp Y     &kp U      &kp I       &kp Q     &none
-        &hm LCTRL A &hm LALT S &hm LSHFT D &hm LGUI F &kp G        &kp H     &hm RGUI N &hm RSHFT K &kp O     &kp L
-        &kp Z       &kp X      &kp C       &kp V      &kp B        &kp J     &kp M      &kp P       &sk LCTRL &none
+        &none &kp TILDE   &kp W      &kp E       &kp R      &kp T        &kp Y     &kp U      &kp I       &kp Q     &none &none
+        &none &hm LCTRL A &hm LALT S &hm LSHFT D &hm LGUI F &kp G        &kp H     &hm RGUI N &hm RSHFT K &kp O     &kp L &none
+        &none &kp Z       &kp X      &kp C       &kp V      &kp B        &kp J     &kp M      &kp P       &sk LCTRL &none &none
 
         &kp LGUI &mo 3 &spml 4 SPACE        &shftdel LSHFT BSPC &mo 2 &sk LCTRL
       >;
@@ -95,9 +95,9 @@
     colemak_layer {
       display-name = "CKYQ";
       bindings = <
-        &kp TILDE   &kp W      &kp F       &kp P      &kp B        &kp J     &kp L      &kp U       &kp Q     &none
-        &hm LCTRL A &hm LALT R &hm LSHFT S &hm LGUI T &kp G        &kp M     &hm RGUI N &hm RSHFT E &kp I     &kp O
-        &kp Z       &kp X      &kp C       &kp D      &kp V        &kp K     &kp H      &kp Y       &sk LCTRL &none
+        &none &kp TILDE   &kp W      &kp F       &kp P      &kp B        &kp J     &kp L      &kp U       &kp Q     &none &none
+        &none &hm LCTRL A &hm LALT R &hm LSHFT S &hm LGUI T &kp G        &kp M     &hm RGUI N &hm RSHFT E &kp I     &kp O &none
+        &none &kp Z       &kp X      &kp C       &kp D      &kp V        &kp K     &kp H      &kp Y       &sk LCTRL &none &none
 
         &kp LGUI &mo 3 &spml 4 SPACE        &shftdel LSHFT BSPC &mo 2 &none
       >;
@@ -106,9 +106,9 @@
     symbs_layer {
       display-name = "Symb";
       bindings = <
-        &kp TILDE &kp AT    &kp PLUS  &kp CARET &none           &none    &kp DLLR  &kp EQUAL &kp COLON &none   
-        &kp FSLH  &kp EXCL  &kp COMMA &kp DOT   &kp ASTRK       &kp HASH &kp DQT   &kp SQT   &kp PIPE  &kp SEMI
-        &kp BSLH  &kp UNDER &kp MINUS &kp AMPS  &none           &kp CAPS &kp PRCNT &kp QMARK &kp GRAVE &none   
+        &none &kp TILDE &kp AT    &kp PLUS  &kp CARET &none           &none    &kp DLLR  &kp EQUAL &kp COLON &none    &none
+        &none &kp FSLH  &kp EXCL  &kp COMMA &kp DOT   &kp ASTRK       &kp HASH &kp DQT   &kp SQT   &kp PIPE  &kp SEMI &none
+        &none &kp BSLH  &kp UNDER &kp MINUS &kp AMPS  &none           &kp CAPS &kp PRCNT &kp QMARK &kp GRAVE &none    &none
 
         &kp LGUI &mo 4 &kp SPACE       &none &none &none
       >;
@@ -117,9 +117,9 @@
     numbrkt_layer {
       display-name = "Num";
       bindings = <
-        &kp LS(LGUI) &kp N1 &kp N2 &kp N3 &kp COMMA     &kp LEFT   &kp DOWN &kp UP   &kp RIGHT &none
-        &kp N0       &kp N4 &kp N5 &kp N6 &kp DOT       &kp LBRC   &kp LPAR &kp RPAR &kp RBRC  &kp LA(N)
-        &kp PLUS     &kp N7 &kp N8 &kp N9 &kp MINUS     &kp LT     &kp LBKT &kp RBKT &kp GT    &none    
+        &none &kp LS(LGUI) &kp N1 &kp N2 &kp N3 &kp COMMA         &kp LEFT   &kp DOWN &kp UP   &kp RIGHT &none     &none
+        &none &kp N0       &kp N4 &kp N5 &kp N6 &kp DOT           &kp LBRC   &kp LPAR &kp RPAR &kp RBRC  &kp LA(N) &none
+        &none &kp PLUS     &kp N7 &kp N8 &kp N9 &kp MINUS         &kp LT     &kp LBKT &kp RBKT &kp GT    &none     &none
 
         &none  &none  &none         &kp LC(W) &mo 4    &kp RALT
       >;
@@ -128,9 +128,9 @@
     misc_layer {
       display-name = "Fnav";
       bindings = <
-        &kp F1 &kp F2  &kp F3  &kp F4  &none                  &none      &none        &none        &none     &none
-        &kp F5 &kp F6  &kp F7  &kp F8  &kp LC(LA(LGUI))       &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT &none
-        &kp F9 &kp F10 &kp F11 &kp F12 &none                  &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &tog 1    &none
+        &none &kp F1 &kp F2  &kp F3  &kp F4  &none            &none      &none        &none        &none     &none  &none
+        &none &kp F5 &kp F6  &kp F7  &kp F8  &kp LC(LA(LGUI)) &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT &none  &none
+        &none &kp F9 &kp F10 &kp F11 &kp F12 &none            &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &none     &tog 1 &none
 
         &none    &tog 4    &none         &tog 4     &tog 4       &none
       >;
@@ -139,13 +139,12 @@
     control_layer {
       display-name = "BT";
       bindings = <
-        &none        &none        &none        &none        &none          &none &none &none &none &none
-        &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &none &none &none &none &none
-        &none        &none        &none        &none        &none          &none &none &none &none &none
+        &none &none        &none        &none        &none        &none          &none    &none    &none  &none     &none &none
+        &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
+        &none &none        &none        &none        &none        &none          &none    &none    &none  &none     &none &none
 
-        &bt BT_CLR        &to 0        &none          &none    &to 0    &none
+        &bt BT_CLR      &to 0        &none          &none    &to 0    &none
       >;
     };
   };
 };
-
