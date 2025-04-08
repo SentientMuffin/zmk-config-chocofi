@@ -117,9 +117,9 @@
     numbrkt_layer {
       display-name = "Num";
       bindings = <
-        &none &kp LS(LGUI) &kp N1 &kp N2 &kp N3 &kp COMMA         &kp LEFT   &kp DOWN &kp UP   &kp RIGHT &none     &none
+        &none &kp PLUS     &kp N1 &kp N2 &kp N3 &kp COMMA         &kp LEFT   &kp DOWN &kp UP   &kp RIGHT &none     &none
         &none &kp N0       &kp N4 &kp N5 &kp N6 &kp DOT           &kp LBRC   &kp LPAR &kp RPAR &kp RBRC  &kp LA(N) &none
-        &none &kp PLUS     &kp N7 &kp N8 &kp N9 &kp MINUS         &kp LT     &kp LBKT &kp RBKT &kp GT    &none     &none
+        &none &kp LS(LGUI) &kp N7 &kp N8 &kp N9 &kp MINUS         &kp LT     &kp LBKT &kp RBKT &kp GT    &none     &none
 
         &none  &none  &none         &kp LC(W) &mo 4    &kp RALT
       >;
@@ -132,7 +132,7 @@
         &none &kp F5 &kp F6  &kp F7  &kp F8  &kp LC(LA(LGUI)) &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT &none  &none
         &none &kp F9 &kp F10 &kp F11 &kp F12 &none            &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &none     &tog 1 &none
 
-        &none    &tog 4    &none         &tog 4     &tog 4       &none
+        &to 5    &tog 4    &none         &tog 4     &tog 4       &none
       >;
     };
 
