@@ -30,14 +30,6 @@
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
     };
-    shftdel: shift_delete {
-      compatible = "zmk,behavior-hold-tap";
-      #binding-cells = <2>;
-      tapping-term-ms = <175>;
-      quick-tap-ms = <0>;
-      flavor = "tap-preferred";
-      bindings = <&kp>, <&kp>;
-    };
   };
   combos {
     compatible = "zmk,combos";
@@ -70,12 +62,6 @@
       key-positions = <8 9>;
       layers = <0 1>;
       bindings = <&kp LA(BSPC)>;
-    };
-    combo_alt {
-      timeout-ms = <50>;
-      key-positions = <2 3>;
-      layers = <0 1>;
-      bindings = <&kp LALT>;
     };
     combo_left_tab {
       timeout-ms = <50>;
