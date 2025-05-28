@@ -57,18 +57,6 @@
       layers = <0 1>;
       bindings = <&kp RGUI>;
     };
-    combo_work_delete {
-      timeout-ms = <50>;
-      key-positions = <8 9>;
-      layers = <0 1>;
-      bindings = <&kp LA(BSPC)>;
-    };
-    combo_left_tab {
-      timeout-ms = <50>;
-      key-positions = <2 3>;
-      layers = <0 1>;
-      bindings = <&kp TAB>;
-    };
     combo_enter {
       timeout-ms = <50>;
       key-positions = <32 33>;
@@ -82,9 +70,9 @@
     default_layer {
       display-name = "Base";
       bindings = <
-        &none &kp Q &kp W &kp E &kp R &kp T        &kp Y &kp U &kp I &sk LALT  &kp TILDE &none
-        &none &kp A &kp S &kp D &kp F &kp G        &kp H &kp N &kp K &kp O     &kp L     &none
-        &none &kp Z &kp X &kp C &kp V &kp B        &kp J &kp M &kp P &sk LCTRL &none     &none
+        &none &kp Q &kp W &kp E &kp R &kp T        &kp Y &kp U &kp I &sk LALT  &none &none
+        &none &kp A &kp S &kp D &kp F &kp G        &kp H &kp N &kp K &kp O     &kp L &none
+        &none &kp Z &kp X &kp C &kp V &kp B        &kp J &kp M &kp P &sk LCTRL &none &none
 
         &kp LGUI &mo 3 &spml 4 SPACE        &kp LSHFT &mo 2 &kp CAPS
       >;
@@ -93,9 +81,9 @@
     colemak_layer {
       display-name = "CKYQ";
       bindings = <
-        &none &kp TILDE   &kp W      &kp F       &kp P      &kp B        &kp J     &kp L      &kp U       &kp Q     &none &none
-        &none &hm LCTRL A &hm LALT R &hm LSHFT S &hm LGUI T &kp G        &kp M     &hm RGUI N &hm RSHFT E &kp I     &kp O &none
-        &none &kp Z       &kp X      &kp C       &kp D      &kp V        &kp K     &kp H      &kp Y       &sk LCTRL &none &none
+        &none &kp TILDE   &kp W      &kp F       &kp P      &kp B        &kp J &kp L      &kp U       &kp Q     &none &none
+        &none &hm LCTRL A &hm LALT R &hm LSHFT S &hm LGUI T &kp G        &kp M &hm RGUI N &hm RSHFT E &kp I     &kp O &none
+        &none &kp Z       &kp X      &kp C       &kp D      &kp V        &kp K &kp H      &kp Y       &sk LCTRL &none &none
 
         &kp LGUI &mo 3 &spml 4 SPACE        &kp LSHFT &mo 2 &none
       >;
@@ -126,9 +114,9 @@
     nav_layer {
       display-name = "Nav";
       bindings = <
-        &none &none     &none     &none     &none     &none                  &none    &none    &none  &none     &none &none
-        &none &kp LSHFT &none     &kp TAB   &kp LGUI  &kp LC(LA(LGUI))       &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
-        &none &kp LG(Z) &kp LG(X) &kp LG(C) &kp LG(V) &none                  &none    &none    &none  &none     &none &none
+        &none &kp TILDE     &kp TAB       &none     &none     &none                  &none    &none    &kp LA(BSPC) &none &none &none
+        &none &kp LA(SPACE) &kp LG(SPACE) &kp LSHFT &kp LGUI  &kp LC(LA(LGUI))       &kp LEFT &kp DOWN &kp UP       &kp RIGHT    &none &none
+        &none &kp LG(Z)     &kp LG(X)     &kp LG(C) &kp LG(V) &none                  &none    &none    &none        &none        &none &none
 
         &none    &none    &none         &kp TAB     &none       &none
       >;
