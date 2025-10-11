@@ -22,14 +22,6 @@
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
-    dlml: delete_momentlayer {
-      compatible = "zmk,behavior-hold-tap";
-      #binding-cells = <2>;
-      tapping-term-ms = <175>;
-      quick-tap-ms = <0>;
-      flavor = "tap-preferred";
-      bindings = <&mo>, <&kp>;
-    };
     spml: space_movelayer {
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
@@ -88,7 +80,7 @@
         &none &kp A &kp S &kp D &kp F &kp G        &kp H &kp N &kp K &kp O     &kp L    &none
         &none &kp Z &kp X &kp C &kp V &kp B        &kp J &kp M &kp P &sk LCTRL &none    &none
 
-        &kp LGUI &mo 3 &spml 4 SPACE        &kp LSHFT &dlml 2 BSPC &none
+        &kp LGUI &mo 3 &spml 4 SPACE        &kp LSHFT &mo 2 &none
       >;
     };
 
