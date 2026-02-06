@@ -39,47 +39,35 @@
       layers = <0 1>;
       bindings = <&kp BSPC>;
     };
-    combo_lshiftA {
+    combo_lshift {
       timeout-ms = <50>;
-      key-positions = <13 14>;
+      key-positions = <15 16>;
       layers = <0 1>;
       bindings = <&kp LSHFT>;
     };
-    combo_lshiftB {
+    combo_lgui {
       timeout-ms = <50>;
       key-positions = <14 16>;
       layers = <0 1>;
-      bindings = <&kp LSHFT>;
+      bindings = <&kp LGUI>;
     };
-    combo_rshiftA {
+    combo_rshift {
       timeout-ms = <50>;
-      key-positions = <21 22>;
+      key-positions = <19 20>;
       layers = <0 1>;
       bindings = <&kp RSHFT>;
     };
-    combo_rshiftB {
+    combo_rgui {
       timeout-ms = <50>;
       key-positions = <19 21>;
       layers = <0 1>;
-      bindings = <&kp RSHFT>;
+      bindings = <&kp RGUI>;
     };
     combo_esc {
       timeout-ms = <50>;
       key-positions = <14 15>;
       layers = <0 1>;
       bindings = <&kp ESC>;
-    };
-    combo_lgui {
-      timeout-ms = <50>;
-      key-positions = <15 16>;
-      layers = <0 1>;
-      bindings = <&kp LGUI>;
-    };
-    combo_rgui {
-      timeout-ms = <50>;
-      key-positions = <19 20>;
-      layers = <0 1>;
-      bindings = <&kp RGUI>;
     };
     combo_enter {
       timeout-ms = <50>;
@@ -104,7 +92,7 @@
         &none &kp A &kp S &kp D &kp F &kp G        &kp H &kp N &kp K &kp O     &kp L         &none
         &none &kp Z &kp X &kp C &kp V &kp B        &kp J &kp M &kp P &sk LCTRL &kp CAPS      &none
 
-                  &none &mo 3 &hltk 4 SPACE        &kp LSHFT &mo 2 &none
+                  &none &mo 3 &hltk 4 SPACE        &kp LA(BSPC) &mo 2 &none
       >;
     };
 
