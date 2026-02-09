@@ -39,24 +39,24 @@
       layers = <0 1>;
       bindings = <&kp BSPC>;
     };
-    combo_llayer {
-      timeout-ms = <50>;
-      key-positions = <14 16>;
-      layers = <0 1>;
-      bindings = <&mo 3>;
-    };
+    /* combo_llayer { */
+    /*   timeout-ms = <50>; */
+    /*   key-positions = <14 16>; */
+    /*   layers = <0 1>; */
+    /*   bindings = <&mo 3>; */
+    /* }; */
     combo_lgui {
       timeout-ms = <50>;
       key-positions = <15 16>;
       layers = <0 1>;
       bindings = <&kp LGUI>;
     };
-    combo_rlayer {
-      timeout-ms = <50>;
-      key-positions = <19 21>;
-      layers = <0 1>;
-      bindings = <&mo 2>;
-    };
+    /* combo_rlayer { */
+    /*   timeout-ms = <50>; */
+    /*   key-positions = <19 21>; */
+    /*   layers = <0 1>; */
+    /*   bindings = <&mo 2>; */
+    /* }; */
     combo_rgui {
       timeout-ms = <50>;
       key-positions = <19 20>;
@@ -88,11 +88,11 @@
     default_layer {
       display-name = "Base";
       bindings = <
-        &none &kp Q &kp W &kp E &kp R &kp T        &kp Y &kp U &kp I &sk LALT  &kp LA(SPACE) &none
-        &none &kp A &kp S &kp D &kp F &kp G        &kp H &kp N &kp K &kp O     &kp L         &none
-        &none &kp Z &kp X &kp C &kp V &kp B        &kp J &kp M &kp P &sk LCTRL &kp CAPS      &none
+        &none &kp Q &kp W &kp E &kp R &kp T        &kp Y &kp U &kp I &sk LALT  &none    &none
+        &none &kp A &kp S &kp D &kp F &kp G        &kp H &kp N &kp K &kp O     &kp L    &none
+        &none &kp Z &kp X &kp C &kp V &kp B        &kp J &kp M &kp P &sk LCTRL &kp CAPS &none
 
-                  &none &mo 3 &hltk 4 SPACE        &kp LSHFT &mo 2 &kp LA(BSPC)
+                  &kp LA(SPACE) &mo 3 &hltk 4 SPACE        &kp LSHFT &mo 2 &kp LA(BSPC)
       >;
     };
 
@@ -132,7 +132,7 @@
     nav_layer {
       display-name = "Nav";
       bindings = <
-        &none &kp TILDE     &kp TAB       &kp LA(BSPC) &none     &none                  &none    &none    &kp LA(SPACE) &none &none &none
+        &none &kp TILDE     &kp TAB       &kp LA(BSPC) &kp LALT  &none                  &none    &none    &kp LA(SPACE) &none &none &none
         &none &kp LA(SPACE) &kp LG(SPACE) &kp LSHFT    &kp LGUI  &kp LC(LA(LGUI))       &kp LEFT &kp DOWN &kp UP        &kp RIGHT    &none &none
         &none &kp LG(Z)     &kp LG(X)     &kp LG(C)    &kp LG(V) &none                  &none    &none    &none         &none        &none &none
 
