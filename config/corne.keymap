@@ -39,27 +39,27 @@
       layers = <0 1>;
       bindings = <&kp BSPC>;
     };
-    combo_lshift {
-      timeout-ms = <50>;
-      key-positions = <15 16>;
-      layers = <0 1>;
-      bindings = <&kp LSHFT>;
-    };
-    combo_lgui {
+    combo_llayer {
       timeout-ms = <50>;
       key-positions = <14 16>;
       layers = <0 1>;
+      bindings = <&mo 3>;
+    };
+    combo_lgui {
+      timeout-ms = <50>;
+      key-positions = <15 16>;
+      layers = <0 1>;
       bindings = <&kp LGUI>;
     };
-    combo_rshift {
+    combo_rlayer {
       timeout-ms = <50>;
-      key-positions = <19 20>;
+      key-positions = <19 21>;
       layers = <0 1>;
-      bindings = <&kp RSHFT>;
+      bindings = <&mo 2>;
     };
     combo_rgui {
       timeout-ms = <50>;
-      key-positions = <19 21>;
+      key-positions = <19 20>;
       layers = <0 1>;
       bindings = <&kp RGUI>;
     };
@@ -92,7 +92,7 @@
         &none &kp A &kp S &kp D &kp F &kp G        &kp H &kp N &kp K &kp O     &kp L         &none
         &none &kp Z &kp X &kp C &kp V &kp B        &kp J &kp M &kp P &sk LCTRL &kp CAPS      &none
 
-                  &none &mo 3 &hltk 4 SPACE        &kp LA(BSPC) &mo 2 &none
+                  &none &mo 3 &hltk 4 SPACE        &kp LSHFT &mo 2 &kp LA(BSPC)
       >;
     };
 
