@@ -94,7 +94,7 @@
       bindings = <
         &none &kp Q &kp W &kp E &kp R &kp T        &kp Y &kp U &kp I &sk LALT  &kp BSPC &none
         &none &kp A &kp S &kp D &kp F &kp G        &kp H &kp N &kp K &kp O     &kp L    &none
-        &none &kp Z &hltk XDRIV NAVI X &kp C &kp V &kp B        &kp J &hltk MDRIV M &kp P &sk LCTRL &kp CAPS &none
+        &none &kp Z &hltk XDRIV X &kp C &kp V &kp B        &kp J &hltk MDRIV M &kp P &sk LCTRL &kp CAPS &none
 
         &kp LA(SPACE) &mo NUMB &hltk NAVI SPACE        &kp LSHFT &mo SYMB &kp LG(SPACE)
       >;
