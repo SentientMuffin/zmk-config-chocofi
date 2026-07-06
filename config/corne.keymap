@@ -46,43 +46,43 @@
     combo_mouse {
       timeout-ms = <50>;
       key-positions = <26 27>;
-      layers = <0 1>;
+      layers = <0>;
       bindings = <&kp BSPC>;
     };
     combo_backspace {
       timeout-ms = <50>;
       key-positions = <20 21>;
-      layers = <0 1>;
+      layers = <0>;
       bindings = <&kp BSPC>;
     };
     combo_lgui {
       timeout-ms = <50>;
       key-positions = <15 16>;
-      layers = <0 1>;
+      layers = <0>;
       bindings = <&kp LGUI>;
     };
     combo_rgui {
       timeout-ms = <50>;
       key-positions = <19 20>;
-      layers = <0 1>;
+      layers = <0>;
       bindings = <&kp RGUI>;
     };
     combo_esc {
       timeout-ms = <50>;
       key-positions = <14 15>;
-      layers = <0 1>;
+      layers = <0>;
       bindings = <&kp ESC>;
     };
     combo_enter {
       timeout-ms = <50>;
       key-positions = <32 33>;
-      layers = <0 1>;
+      layers = <0>;
       bindings = <&kp RET>;
     };
     combo_tab {
       timeout-ms = <50>;
       key-positions = <2 3>;
-      layers = <0 1>;
+      layers = <0>;
       bindings = <&kp TAB>;
     };
   };
